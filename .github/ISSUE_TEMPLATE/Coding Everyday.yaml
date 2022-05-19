@@ -24,7 +24,7 @@ body:
       description: Please confirm that the basic information (validator contact information (website, twitter, telegram, etc.), details & avatar/logo) is set on chain
       options:
         - label: I confirm to have set my validator information on chain
-          mandatory: true
+          default: true
           required: true
   - type: input
     id: contact
@@ -51,8 +51,7 @@ body:
         - Running relayers
         - Running an archive node 
         - Running an public rpc/api 
-      value: "${Uptime,Self delegation,Participation in the BitSong ecosystem}"
-      mandatory: true
+      default: "${Uptime,Self delegation,Participation in the BitSong ecosystem}"
     validations:
       required: true      
   - type: textarea
