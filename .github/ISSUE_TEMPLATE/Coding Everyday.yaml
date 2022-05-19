@@ -51,7 +51,7 @@ body:
         - Running relayers
         - Running an archive node 
         - Running an public rpc/api 
-      value: "${Uptime}", "${Self delegation}", "${Participation in the BitSong ecosystem}"
+      value: "${Uptime,Self delegation,Participation in the BitSong ecosystem}"
     validations:
       required: true      
   - type: textarea
