@@ -15,7 +15,7 @@ body:
       label: Validator address
       description: "Please provide the address of your validator "
       placeholder: "bitsongvaloper..."
-      value: bitsongvaloper100akrazwzrxhklgnh2ueaqfcv7kcanh9ew3jxf
+      value: "bitsongvaloper100akrazwzrxhklgnh2ueaqfcv7kcanh9ew3jxf"
     validations:
       required: true
   - type: checkboxes
