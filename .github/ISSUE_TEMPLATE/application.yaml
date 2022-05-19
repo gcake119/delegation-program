@@ -15,6 +15,7 @@ body:
       label: Validator address
       description: "Please provide the address of your validator "
       placeholder: "bitsongvaloper..."
+      value: bitsongvaloper100akrazwzrxhklgnh2ueaqfcv7kcanh9ew3jxf
     validations:
       required: true
   - type: checkboxes
@@ -23,6 +24,7 @@ body:
       description: Please confirm that the basic information (validator contact information (website, twitter, telegram, etc.), details & avatar/logo) is set on chain
       options:
         - label: I confirm to have set my validator information on chain
+          value: true
           required: true
   - type: input
     id: contact
@@ -30,6 +32,7 @@ body:
       label: Contact information
       description: "Please provide a possibility to contact you"
       placeholder: "Discord/Telegram/Mail"
+      value: Discord_Erica#2697
     validations:
       required: true
   - type: dropdown
@@ -48,6 +51,7 @@ body:
         - Running relayers
         - Running an archive node 
         - Running an public rpc/api 
+      choices: ["{ Uptime}", "{value: Self delegation}", "{value: Participation in the BitSong ecosystem}"]
     validations:
       required: true      
   - type: textarea
@@ -55,6 +59,10 @@ body:
     attributes:
       label: Details
       description: Please provide all the information in regards to your selected application categories
+      value: 
+       Uptime - retain at >99%; 
+       Self delegation - Redelegation from the reward from commission, the amount is about 2000 BTSG until now;  
+       Participation in the BitSong ecosystem - Wrote articles introduce the main function and campaign on chain for Chinese-speaking Community
     validations:
       required: true
   - type: textarea
