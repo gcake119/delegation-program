@@ -24,8 +24,8 @@ body:
       description: Please confirm that the basic information (validator contact information (website, twitter, telegram, etc.), details & avatar/logo) is set on chain
       options:
         - label: I confirm to have set my validator information on chain
+          options: true
           required: true
-          value: true
   - type: input
     id: contact
     attributes:
