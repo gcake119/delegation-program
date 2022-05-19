@@ -32,7 +32,7 @@ body:
       label: Contact information
       description: "Please provide a possibility to contact you"
       placeholder: "Discord/Telegram/Mail"
-      value: Discord_Erica#2697
+      value: "Discord_Erica#2697"
     validations:
       required: true
   - type: dropdown
